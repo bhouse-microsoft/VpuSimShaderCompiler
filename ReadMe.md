@@ -14,7 +14,7 @@ To build the compiler, we use the standard LLVM building steps.
 
 On a Windows 10 machine with Visual Studio 2017, we follow these steps:
 
-* git clone -c config.autocrlf=false https://github.com/bhouse-microsoft/VpuSimShaderCompiler.git
+* git clone -c core.autocrlf=false https://github.com/bhouse-microsoft/VpuSimShaderCompiler.git
 * cd VpuSimShaderCompiler
 * git checkout vpu
 * cd ..
@@ -22,3 +22,14 @@ On a Windows 10 machine with Visual Studio 2017, we follow these steps:
 * cd VpuSimShaderCompiler.build
 * cmake -DLLVM_TARGETS_TO_BUILD="X86" -DLLVM_OPTIMIZED_TABLEGEN=On path-to-repository -Thost=x64
 * cmake --build .
+
+# Configuring username
+
+If you need to provide a different user name to submit changes to the repository, you can edit your .git/config adding the following:
+
+```
+[credential "https://github.com/bhouse-microsoft/VpuSimShaderCompiler.git"]
+	useHttpPath = true
+	helper = manager
+	username = bhouse-microsoft
+```
