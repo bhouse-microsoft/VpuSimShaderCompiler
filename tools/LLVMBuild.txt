@@ -20,6 +20,7 @@ subdirectories =
  bugpoint
  dsymutil
  llc
+ vpuc
  lli
  llvm-ar
  llvm-as
