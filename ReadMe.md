@@ -28,7 +28,9 @@ On a Windows 10 machine with Visual Studio 2017 and CMake 3.13.2, we follow thes
 * cmake -DLLVM_TARGETS_TO_BUILD="X86" -DLLVM_OPTIMIZED_TABLEGEN=On path-to-repository -Thost=x64
 * cmake --build .
 * mkdir VpuSimShaderCompiler.build64
+* cd VpuSimShaderCompiler.build32
 * cmake -DLLVM_TARGETS_TO_BUILD="X86" -G ""Visual Studio 15 2017 Win64" -DLLVM_OPTIMIZED_TABLEGEN=On path-to-repository -Thost=x64
+* cmake --build .
 
 # Configuring username
 
