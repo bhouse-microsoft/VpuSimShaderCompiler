@@ -15,7 +15,7 @@ To build the compiler, we use the standard LLVM building steps.
 Tool Chain Needed for build:
 * Visual Studio 2017
 * [CMake](https://cmake.org/download)
-* [Python] (https://www.python.org/ftp/python/3.7.2/python-3.7.2.exe)
+* [Python](https://www.python.org/ftp/python/3.7.2/python-3.7.2.exe)
 
 On a Windows 10 machine with Visual Studio 2017 and CMake 3.13.2, we follow these steps:
 
