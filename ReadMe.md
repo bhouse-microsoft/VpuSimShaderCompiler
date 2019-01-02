@@ -12,6 +12,11 @@ It is unlikely that we will merge any additional changes from LLVM.
 
 To build the compiler, we use the standard LLVM building steps.
 
+Tool Chain Needed for build:
+* Visual Studio 2017
+* [CMake](https://cmake.org/download)
+* [Python] (https://www.python.org/ftp/python/3.7.2/python-3.7.2.exe)
+
 On a Windows 10 machine with Visual Studio 2017 and CMake 3.13.2, we follow these steps:
 
 * git clone -c core.autocrlf=false https://github.com/bhouse-microsoft/VpuSimShaderCompiler.git
